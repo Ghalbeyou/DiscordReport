@@ -1,0 +1,16 @@
+name: DiscordReport
+version: '${version}'
+main: arashamini.ghalbesecurity.GhalbeSecurity
+api-version: 1.17
+authors: [ GhalbeYou ]
+description: A Security plugin for any server
+website: https://www.spigotmc.org/resources/discordreport.104796/
+commands:
+  report:
+    description: Report a player to the server
+    usage: /report <player> <reason>
+    aliases: [ report ]
+  gsreload:
+    description: Reload the plugin
+    usage: /gsreload
+    aliases: [ gsreload ]
