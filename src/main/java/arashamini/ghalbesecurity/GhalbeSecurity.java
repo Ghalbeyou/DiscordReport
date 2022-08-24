@@ -60,6 +60,11 @@ public final class GhalbeSecurity extends JavaPlugin {
             CustomMsg.sendMessage("&aReport sent!", sender);
             return true;
         }
+        if (cmd.getName().equalsIgnoreCase("gsreload")){
+            reloadConfig();
+            CustomMsg.sendMessage("&aWell, reloaded", sender);
+            return true;
+        }
         return false;
     }
 
